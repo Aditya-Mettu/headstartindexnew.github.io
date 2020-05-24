@@ -261,7 +261,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-/*  box-shadow: 0 0 0 10px #0078ff;*/
+  box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
 
@@ -511,8 +511,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  /*background-color: #1B1B1B;*/
-  background-color: white;
+  background-color: #1B1B1B;
 }
 
 .navbar-b .navbar-brand {
@@ -1312,7 +1311,7 @@ footer .credits a {
     top: -0;
     left: 0;
     content: " ";
-    background: url(img/service-section-bottom.html);
+    background: url(img/service-section-bottom.png);
     background-size: 100% 100px;
     width: 100%;
     height: 100px;
@@ -1339,7 +1338,7 @@ footer .credits a {
     z-index: 1;
     position: relative;
 }
-.our-team .pic:before { /*this is the back side blue arch*/
+.our-team .pic:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -1353,9 +1352,9 @@ footer .credits a {
     transform: scale(3);
     transition: all 0.3s linear 0s;
 }
-.our-team:hover .pic:before{ /*this is the black color thar comes on arch after mouse runs*/
+.our-team:hover .pic:before{
  height: 100%;
-    background: #2f2f2f; 
+    background: grey; 
  }
 .our-team .pic:after {
     content: "";
@@ -1369,8 +1368,8 @@ footer .credits a {
     z-index: 1;
     transition: all 0.3s linear 0s;
 }
-.our-team:hover .pic:after{ /*this is removuing colors in all 3 circles*/
-    background: /*#7ab92d;*/
+.our-team:hover .pic:after{
+    background: #ffc107;
 }
 .our-team .pic img {
     width: 100%;
@@ -1378,20 +1377,18 @@ footer .credits a {
     border-radius: 50%;
     transform: scale(1);
     transition: all 0.9s ease 0s;
-    box-shadow: 0 0 0 14px/* #f7f5ec; middle ring for last two outer ring for middle*/
-
+    box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(0.7);
     position: relative;
     z-index: 2;
 }
 .our-team:hover .pic img{
-    box-shadow: 0 0 0 14px #ffc107;/*first circle for student council and heads, second circle for advisors and subheads*/
+    box-shadow: 0 0 0 14px white;
     transform: scale(0.7);
 }
 .our-team .team-content{ margin-bottom: 30px; }
 .our-team .title{
-    /*font-size: 22px;*/
-    font-size: x-large;
+    font-size: 22px;
     font-weight: 700;
     color: #4e5052;
     letter-spacing: 1px;
@@ -1436,7 +1433,7 @@ footer .credits a {
 /* Defult Settings */
 
 #animated-cards .card-header {
-  height: 220px;
+  height: 200px;
   background-color: #ffc107;
 }
 
@@ -1489,7 +1486,7 @@ footer .credits a {
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  transition: all 200ms;
+  transition: all 1200ms;
   z-index: 99;
 }
 
@@ -1529,7 +1526,7 @@ footer .credits a {
 
 
 .zoom:hover{
-  color: #ca4828;
+    -ms-transform: scale(0.8); /* IE 9 */
+  -webkit-transform: scale(0.8); /* Safari 3-8 */
+  transform: scale(0.8); 
 }
-
-
